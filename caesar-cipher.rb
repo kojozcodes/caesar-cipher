@@ -8,4 +8,9 @@ def encrypt_string(string, shift)
       char
     end
   end
+
+  encrypted_string = string_array.join("")
+  puts encrypted_string
 end
+
+encrypt_string("Hello world!", 5)
